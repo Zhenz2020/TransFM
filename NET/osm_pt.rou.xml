@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-04-20 13:17:09.926851 by scenarioFromOSM.py v1_5_0+1147-7decef50d5
+  options: <doubleminus>osm suzhou_gucheng.osm <doubleminus>out target_directory <doubleminus>lefthand <doubleminus>population 500 <doubleminus>single-taz
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_aerialway" vClass="bus"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="subway_1:1" edges="512071975" >
+        <stop busStop="2101696074" duration="30.00" until="57.0"/> <!-- 养育巷 -->
+        <stop busStop="7152453358" duration="30.00" until="135.0"/> <!-- 乐桥 -->
+        <stop busStop="2099899884" duration="30.00" until="213.0"/> <!-- 临顿路 -->
+        <stop busStop="2099903865" duration="30.00" until="289.0"/> <!-- 相门 -->
+    </route>
+    <route id="subway_4:0" edges="606672453" >
+        <stop busStop="4570243010" duration="30.00" until="85.0"/> <!-- 北寺塔 -->
+        <stop busStop="4570243009" duration="30.00" until="174.0"/> <!-- 察院场 -->
+        <stop busStop="7152453359" duration="30.00" until="241.0"/> <!-- 乐桥 -->
+        <stop busStop="4570243008" duration="30.00" until="323.0"/> <!-- 三元坊 -->
+        <stop busStop="4625473982" duration="30.00" until="394.0"/> <!-- 南门 -->
+    </route>
+    <route id="bus_2:0" edges="536568419 485337614#0 485337614#1 485337614#2 485337614#3 485337614#4 485337614#5 485337614#6 485337614#7 526710359 485337612 621550273 621164888#0 621164888#1 621156408#0 621156408#1 685088109#0 685088109#1 685088109#2 685088108 116730242#0 116730242#1 116730242#2 116730242#3 116730242#4 116730242#5" >
+        <stop busStop="5867516272" duration="30.00" until="77.0"/> <!-- 学士街 -->
+        <stop busStop="5867516270" duration="30.00" until="150.0"/> <!-- 养育巷 -->
+        <stop busStop="5867516266" duration="30.00" until="271.0"/> <!-- 乐桥 -->
+        <stop busStop="5867516264" duration="30.00" until="348.0"/> <!-- 市一中 -->
+    </route>
+    <route id="subway_1:0" edges="-512071975" >
+        <stop busStop="-2099903865" duration="30.00" until="145.0"/> <!-- 相门 -->
+		<stop busStop="-2099899884" duration="30.00" until="213.0"/> <!-- 临顿路 -->
+        <stop busStop="-7152453358" duration="30.00" until="293.0"/> <!-- 乐桥 -->
+        <stop busStop="-2101696074" duration="30.00" until="362.0"/> <!-- 养育巷 -->
+    </route>
+    <route id="bus_9011:0" edges="-525823901 525823902#1 454323076 621156389#0 621156389#1 621156398#0 621156398#1 44669548#0 44669548#1 44669548#2 44669548#3 620937811#0 621655568#0 621655568#1 621655568#2 621655567 621655566#0 621655566#1 -440356231#0 -621164893#1 -621164893#0 -620937810#3 -620937810#2 -620937810#1 -620937810#0 -620937804 -24535157#5 -24535157#4 -24535157#3 -24535157#2 -24535157#1 -24535157#0 -525823904#5 -525823904#4 -525823904#3 -525823904#2 -525823904#1 -525823904#0 -620937796 -620937800#1 -620937800#0 -542543709#1 -542543709#0 44669520#0 44669520#1 44669520#2 44669520#3 44669520#4 620937798 454323077 525823902#0 525823901">
+        <stop busStop="5866058297" duration="30.00" until="145.0"/> <!-- 南门 -->
+		<stop busStop="5866058295" duration="30.00" until="215.0"/> <!-- 工人文化宫 -->
+		<stop busStop="5866058290" duration="30.00" until="285.0"/> <!-- 市红十字会东 -->
+		<stop busStop="5866058291" duration="30.00" until="355.0"/> <!-- 木杏新村 -->
+		<stop busStop="-5866058279" duration="30.00" until="405.0"/> <!-- 南园宾馆 -->
+		<stop busStop="-5866058277" duration="30.00" until="475.0"/> <!-- 南林饭店 -->
+		<stop busStop="-5866058270" duration="30.00" until="545.0"/> <!-- 三元坊（十全街） -->
+		<stop busStop="-5866058269" duration="30.00" until="605.0"/> <!-- 书院巷 -->
+		<stop busStop="-5866058268" duration="30.00" until="665.0"/> <!-- 东大街 -->
+		<stop busStop="-5866058303" duration="30.00" until="735.0"/> <!-- 盘门 -->
+        <stop busStop="5866058302" duration="30.00" until="765.0"/> <!-- 西二路 -->
+        <stop busStop="5866058301" duration="30.00" until="805.0"/> <!-- 人民桥 -->
+    </route>
+    <route id="bus_2:1" edges="51229439#0 51229439#1 51229439#2 685088113 685088112#0 685088112#1 621156409#0 621156409#1 621156409#2 621156409#3 621156409#4 621156409#5 621156407#0 621156407#1 621156407#2 621156407#3 485337613 526710358 344310547#0 344310547#1 344310547#2 344310547#3 344310547#4 344310547#5 344310547#6 344310547#7 344310547#8 344310547#9" >
+        <stop busStop="5867516263" duration="30.00" until="234.0"/> <!-- 市一中 -->
+        <stop busStop="5867516265" duration="30.00" until="298.0"/> <!-- 乐桥 -->
+        <stop busStop="5867516271" duration="30.00" until="500.0"/> <!-- 养育巷 -->
+        <stop busStop="5867516273" duration="30.00" until="607.0"/> <!-- 学士街 -->
+    </route>
+    <route id="bus_9003:0" edges="-440363058#3 -440363058#2 -440363058#1 -440363058#0 -44660549 -440356231#11 -440356231#10 -440356231#9 -440356231#8 -440356231#7 -440356231#6 -440356231#5 -440356231#4 -440356231#3 -440356231#2 -440356231#1 621655564 621655565 621655563#0 621655563#1 69707955#0 69707955#1 69707955#2 44669522#0 44669522#1 44669522#2 44669522#3 454323073 454323074 454323085#0 454323085#1 454323085#2 454323085#3 454323082 44669523 621156391#0 621156391#1 620937807#0 620937807#1 620937807#2 620937807#3 620937807#4 621156388#0 621156388#1 621156388#2 36999946#1 36999946#2 36999946#3 36999946#4 348725331#0 348725331#1 621164888#1 621156408#0 621156408#1 621156411#0 ">
+        <stop busStop="-5867326291" duration="30.00" until="150.0"/> <!-- 苏州饭店 -->
+        <stop busStop="-5867326289" duration="30.00" until="221.0"/> <!-- 网师园北 -->
+		<stop busStop="-5867326287" duration="30.00" until="300.0"/> <!-- 苏州日报社 -->
+		<stop busStop="5867326285" duration="30.00" until="360.0"/> <!-- 平桥直街 -->
+		<stop busStop="5866058274" duration="30.00" until="410.0"/> <!-- 乌鹊桥北 -->
+		<stop busStop="5866058276" duration="30.00" until="460.0"/> <!-- 乌鹊桥路 -->
+		<stop busStop="5866058293" duration="30.00" until="500.0"/> <!-- 乌鹊桥南 -->
+		<stop busStop="5866058294" duration="30.00" until="560.0"/> <!-- 工人文化宫南 -->
+		<stop busStop="5236743325" duration="30.00" until="620.0"/> <!-- 工人文化宫 -->
+		<stop busStop="4559352474" duration="30.00" until="660.0"/> <!-- 三元坊 -->
+		<stop busStop="5866058269" duration="30.00" until="730.0"/> <!-- 苏州图书馆 -->
+		<stop busStop="5866058271" duration="30.00" until="800.0"/> <!-- 饮马桥 -->
+		<stop busStop="5867516266" duration="30.00" until="850.0"/> <!-- 乐桥 -->
+		<stop busStop="5867516264" duration="30.00" until="900.0"/> <!-- 市一中 -->
+		<stop busStop ="5867516261" duration="30.00" until="970.0"/> <!-- 双塔 -->
+    </route>
+    <route id="subway_4:1" edges="-606672453" >
+        <stop busStop="-4625473982" duration="30.00" until="423.0"/> <!-- 南门 -->
+		<stop busStop="-4570243008" duration="30.00" until="496.0"/> <!-- 三元坊 -->
+        <stop busStop="-7152453359" duration="30.00" until="578.0"/> <!-- 乐桥 -->
+        <stop busStop="-4570243009" duration="30.00" until="645.0"/> <!-- 察院场 -->
+        <stop busStop="-4570243010" duration="30.00" until="734.0"/> <!-- 北寺塔 -->
+    </route>
+    <route id="bus_9004:0" edges="-440363058#3 -440363058#2 -440363058#1 -440363058#0 -44660549 -440356231#11 -440356231#10 -440356231#9 -440356231#8 -440356231#7 -440356231#6 -440356231#5 -440356231#4 -440356231#3 -440356231#2 -440356231#1 -440356231#0 -621164893#1 -621164893#0 -454323074 -454323073 -44669522#3 -44669522#2 -44669522#1 -44669522#0 -621562724#2 -621562724#1 -621562724#0 -44669527#2 -44669527#1 -44669527#0 -621550274 621156407#0 621156407#1 621156407#2 -621550275#0 621550275#0 621550275#1 348725324#0 348725324#1 348725324#2 348725324#3 348725324#4 348725324#5 621156393 621156387 -621562724#2 -621562724#1 -621562724#0 -454323212#3 -454323212#2 -454323212#1 -454323212#0 131443652#0 131443652#1 131443652#2 131443652#3 131443652#4 454323072 454323071 440356231#0 440356231#1 440356231#2 440356231#3 440356231#4 440356231#5 440356231#6 440356231#7 440356231#8 440356231#9 440356231#10 440356231#11 44660549 440363058#0 440363058#1 440363058#2 440363058#3" >
+        <stop busStop="-5867326291" duration="30.00" until="150.0"/> <!-- 苏州饭店 -->
+        <stop busStop="-5867326289" duration="30.00" until="221.0"/> <!-- 网师园北 -->
+        <stop busStop="-5866058279" duration="30.00" until="322.0"/> <!-- 南园宾馆 -->
+        <stop busStop="-5866058277" duration="30.00" until="378.0"/> <!-- 南林饭店 -->
+        <stop busStop="-5867326286" duration="30.00" until="446.0"/> <!-- 平桥直街 -->
+        <stop busStop="5867517607" duration="30.00" until="522.0"/> <!-- 锦帆路 -->
+        <stop busStop="-5867361087" duration="30.00" until="575.0"/> <!-- 苏州公园 -->
+        <stop busStop="-5867361088" duration="30.00" until="632.0"/> <!-- 民治路 -->
+        <stop busStop="-5867361089" duration="30.00" until="785.0"/> <!-- 民治路东 -->
+    </route>	
+    <flow id="subway_1:1" type="pt_subway" route="subway_1:1" begin="0" end="86400.0" period="600" line="1:1" >
+        <param key="name" value="苏州轨道交通一号线"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_4:0" type="pt_subway" route="subway_4:0" begin="0" end="86400.0" period="600" line="4:0" >
+        <param key="name" value="苏州地铁4号线"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_2:0" type="pt_bus" route="bus_2:0" begin="0" end="86400.0" period="600" line="2:0" >
+        <param key="name" value="2路"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_1:0" type="pt_subway" route="subway_1:0" begin="0" end="86400.0" period="600" line="1:0" >
+        <param key="name" value="苏州轨道交通一号线"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_9011:0" type="pt_bus" route="bus_9011:0" begin="0" end="86400.0" period="600" line="9011:0" >
+        <param key="name" value="社区巴士9011路"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_2:1" type="pt_bus" route="bus_2:1" begin="0" end="86400.0" period="600" line="2:1" >
+        <param key="name" value="2路"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_9003:0" type="pt_bus" route="bus_9003:0" begin="0" end="86400.0" period="600" line="9003:0" >
+        <param key="name" value="社区巴士9003路"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_4:1" type="pt_subway" route="subway_4:1" begin="0" end="86400.0" period="600" line="4:1" >
+        <param key="name" value="苏州地铁4号线"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_9004:0" type="pt_bus" route="bus_9004:0" begin="0" end="86400.0" period="600" line="9004:0" >
+        <param key="name" value="社区巴士9004路"/>
+        <param key="completeness" value="1.00"/>
+	</flow>
+	<vehicle id="v0" depart="0">
+		<route edges="24535157#5 620937806#0" />
+		<stop parkingArea="5237364665" duration="200"/>
+	</vehicle>
+	<vehicle id="v1" depart="1">
+		<route edges="24535157#5 620937806#0"/>
+		<stop parkingArea="5237364665" duration="200"/>
+	</vehicle>
+	<vehicle id="v3" depart="4">
+		<route edges="24535157#5 620937806#0"/>
+	</vehicle>
+		<vehicle id="v4" depart="5">
+		<route edges="24535157#5 620937806#0"/>
+	</vehicle>
+</routes>

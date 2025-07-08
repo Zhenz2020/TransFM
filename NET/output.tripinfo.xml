@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-08 20:59:38 by Eclipse SUMO GUI Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\DS_RAG\NET\network.net.xml"/>
+        <route-files value="D:\DS_RAG\NET\routes.rou.xml,D:\DS_RAG\NET\osm_pt.rou.xml"/>
+        <additional-files value="D:\DS_RAG\NET\osm_polygons.add.xml,D:\DS_RAG\NET\osm_stops.add.xml,D:\DS_RAG\NET\osm_complete_parking_areas.add.xml,D:\DS_RAG\NET\osm_parking_rerouters.add.xml,D:\DS_RAG\NET\basic.vType.xml"/>
+    </input>
+
+    <output>
+        <output-prefix value="output."/>
+        <summary-output value="D:\DS_RAG\NET\summary.xml"/>
+        <tripinfo-output value="D:\DS_RAG\NET\tripinfo.xml"/>
+        <tripinfo-output.write-unfinished value="false"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="86400.0"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0.8"/>
+        <ignore-junction-blocker value="60"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="teleport"/>
+        <time-to-teleport value="300"/>
+        <max-depart-delay value="900"/>
+        <time-to-impatience value="120"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.jamtime value="60"/>
+    </processing>
+
+    <routing>
+        <persontrip.transfer.car-walk value="parkingAreas,ptStops,allJunctions"/>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+        <person-device.rerouting.probability value="1"/>
+        <person-device.rerouting.period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="false"/>
+        <duration-log.disable value="false"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+</sumoConfiguration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

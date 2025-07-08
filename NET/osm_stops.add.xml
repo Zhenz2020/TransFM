@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/20/20 13:17:06 by Eclipse SUMO netconvert Version v1_5_0+1181-3a283f7789
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="D:\sumo/data/typemap/osmNetconvert.typ.xml,D:\sumo/data/typemap/osmNetconvertBicycle.typ.xml,D:\sumo/data/typemap/osmNetconvertPedestrians.typ.xml"/>
+        <osm-files value="suzhou_gucheng.osm"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+        <parking-output value="osm_parking.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <no-turnarounds.except-deadend value="true"/>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-2099899884" lane="-512071975_0" startPos="937.01" endPos="1137.01" name="临顿路" friendlyPos="1">
+        <access lane="621156409#0_0" pos="105.67" length="39.48" friendlyPos="1"/>
+        <access lane="621156409#1_0" pos="0.00" length="45.54" friendlyPos="1"/>
+        <access lane="621156412#0_0" pos="98.66" length="46.54" friendlyPos="1"/>
+        <access lane="621156412#1_0" pos="4.82" length="20.43" friendlyPos="1"/>
+        <access lane="685088109#0_0" pos="1.53" length="39.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2099903865" lane="-512071975_0" startPos="170.11" endPos="370.11" name="相门" friendlyPos="1">
+        <access lane="-276937021#5_0" pos="5.33" length="11.90" friendlyPos="1"/>
+        <access lane="116730242#2_0" pos="148.65" length="40.11" friendlyPos="1"/>
+        <access lane="276937021#5_0" pos="3.79" length="3.70" friendlyPos="1"/>
+        <access lane="51229439#0_0" pos="221.77" length="39.46" friendlyPos="1"/>
+        <access lane="51229439#1_0" pos="0.00" length="35.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2101696074" lane="-512071975_0" startPos="2583.71" endPos="2783.71" name="养育巷" friendlyPos="1">
+        <access lane="-449378248_0" pos="0.00" length="93.35" friendlyPos="1"/>
+        <access lane="344310547#6_0" pos="105.40" length="34.45" friendlyPos="1"/>
+        <access lane="344310547#7_0" pos="0.00" length="107.26" friendlyPos="1"/>
+        <access lane="449378248_0" pos="51.56" length="105.08" friendlyPos="1"/>
+        <access lane="485337614#2_0" pos="140.66" length="36.57" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4570243008" lane="-606672453_0" startPos="796.99" endPos="996.99" name="三元坊" friendlyPos="1">
+        <access lane="-620937804_0" pos="0.20" length="22.76" friendlyPos="1"/>
+        <access lane="24535157#5_0" pos="96.26" length="26.59" friendlyPos="1"/>
+        <access lane="620937804_0" pos="0.00" length="12.04" friendlyPos="1"/>
+        <access lane="620937806#0_0" pos="0.00" length="25.70" friendlyPos="1"/>
+        <access lane="620937807#4_0" pos="132.07" length="23.83" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4570243009" lane="-606672453_0" startPos="2265.56" endPos="2465.56" name="察院场" friendlyPos="1">
+        <access lane="-442386648#8_0" pos="0.00" length="25.06" friendlyPos="1"/>
+        <access lane="36999946#11_0" pos="23.70" length="18.34" friendlyPos="1"/>
+        <access lane="442386648#8_0" pos="180.74" length="30.79" friendlyPos="1"/>
+        <access lane="442518549#12_0" pos="214.87" length="24.45" friendlyPos="1"/>
+        <access lane="442518549#13_0" pos="0.00" length="29.81" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4570243010" lane="-606672453_0" startPos="3391.72" endPos="3591.72" name="北寺塔" friendlyPos="1">
+        <access lane="-44669545#0_0" pos="0.20" length="13.39" friendlyPos="1"/>
+        <access lane="36999945#0_0" pos="0.00" length="25.08" friendlyPos="1"/>
+        <access lane="36999946#20_0" pos="79.51" length="24.67" friendlyPos="1"/>
+        <access lane="442518549#6_0" pos="0.00" length="25.28" friendlyPos="1"/>
+        <access lane="44669545#0_0" pos="0.00" length="21.69" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-4625473982" lane="-606672453_0" startPos="160.70" endPos="360.70" name="南门" friendlyPos="1">
+        <access lane="620937802#0_0" pos="0.00" length="21.19" friendlyPos="1"/>
+        <access lane="620937806#2_0" pos="92.33" length="20.96" friendlyPos="1"/>
+        <access lane="620937807#0_0" pos="0.00" length="22.14" friendlyPos="1"/>
+        <access lane="621156390_0" pos="0.00" length="6.18" friendlyPos="1"/>
+        <access lane="621655561_0" pos="0.20" length="21.02" friendlyPos="1"/>
+    </busStop>
+	<busStop id="5866058291" lane="621655568#1_2" startPos="154" endPos="170" name="木杏新村" friendlyPos="1" lines="9011"/>
+	<busStop id="-5866058269" lane="-24535157#1_2" startPos="15" endPos="30" name="书院巷" friendlyPos="1" lines="9011"/>
+	<busStop id="-5866058268" lane="-525823904#4_2" startPos="50" endPos="65" name="东大街" friendlyPos="1" lines="9011"/>
+    <busStop id="-5866058270" lane="-620937810#1_2" startPos="3.78" endPos="18.78" name="三元坊（十全街）" friendlyPos="1" lines="9011"/>
+    <busStop id="-5866058277" lane="-621164893#0_2" startPos="188.22" endPos="203.22" name="南林饭店" friendlyPos="1" lines="9011 9004"/>
+    <busStop id="-5866058279" lane="-621164893#1_2" startPos="99.08" endPos="114.08" name="南园宾馆" friendlyPos="1" lines="9011 9004"/>
+    <busStop id="-5866058303" lane="-542543709#1_2" startPos="0.00" endPos="7.50" name="盘门景区" friendlyPos="1" lines="9011"/>
+    <busStop id="-5867326286" lane="-44669522#2_2" startPos="31.50" endPos="46.50" name="平桥直街" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867326289" lane="-440356231#3_2" startPos="101.33" endPos="116.33" name="网师园北" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867326291" lane="-440356231#6_2" startPos="124.74" endPos="139.74" name="苏州饭店" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867326292" lane="-440356231#6_2" startPos="25.44" endPos="40.44" name="苏州饭店" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867361085" lane="-44669527#2_2" startPos="34.82" endPos="49.82" name="大公园" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867361087" lane="-454323212#3_2" startPos="39.63" endPos="54.63" name="苏州公园" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867361088" lane="-454323212#2_2" startPos="36.81" endPos="51.81" name="民治路" friendlyPos="1" lines="9004"/>
+    <busStop id="-5867361089" lane="-454323212#1_2" startPos="73.73" endPos="85.02" name="民治路东" friendlyPos="1" lines="9004"/>
+    <busStop id="-7152453358" lane="-512071975_0" startPos="1760.25" endPos="1960.25" name="乐桥" friendlyPos="1">
+        <access lane="36999946#5_0" pos="22.21" length="33.17" friendlyPos="1"/>
+        <access lane="442518549#17_0" pos="21.95" length="1.33" friendlyPos="1"/>
+        <access lane="485337612_0" pos="0.00" length="32.87" friendlyPos="1"/>
+        <access lane="526710358_0" pos="8.69" length="31.47" friendlyPos="1"/>
+        <access lane="526710359_0" pos="121.43" length="30.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-7152453359" lane="-606672453_0" startPos="1751.14" endPos="1951.14" name="乐桥" friendlyPos="1">
+        <access lane="36999946#5_0" pos="16.44" length="17.47" friendlyPos="1"/>
+        <access lane="442518549#17_0" pos="27.77" length="17.02" friendlyPos="1"/>
+        <access lane="485337612_0" pos="2.12" length="21.08" friendlyPos="1"/>
+        <access lane="485337613_0" pos="123.91" length="40.80" friendlyPos="1"/>
+        <access lane="526710359_0" pos="129.14" length="21.39" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2099899884" lane="512071975_0" startPos="1816.37" endPos="2016.37" name="临顿路" friendlyPos="1">
+        <access lane="621156409#0_0" pos="105.67" length="39.48" friendlyPos="1"/>
+        <access lane="621156409#1_0" pos="0.00" length="45.54" friendlyPos="1"/>
+        <access lane="621156412#0_0" pos="98.66" length="46.54" friendlyPos="1"/>
+        <access lane="621156412#1_0" pos="4.82" length="20.43" friendlyPos="1"/>
+        <access lane="685088109#0_0" pos="1.53" length="39.13" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2099903865" lane="512071975_0" startPos="2583.28" endPos="2783.28" name="相门" friendlyPos="1">
+        <access lane="-276937021#5_0" pos="5.33" length="11.90" friendlyPos="1"/>
+        <access lane="116730242#2_0" pos="148.65" length="40.11" friendlyPos="1"/>
+        <access lane="276937021#5_0" pos="3.79" length="3.70" friendlyPos="1"/>
+        <access lane="51229439#0_0" pos="221.77" length="39.46" friendlyPos="1"/>
+        <access lane="51229439#1_0" pos="0.00" length="35.87" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2101696074" lane="512071975_0" startPos="169.67" endPos="369.67" name="养育巷" friendlyPos="1">
+        <access lane="-449378248_0" pos="0.00" length="93.35" friendlyPos="1"/>
+        <access lane="344310547#6_0" pos="105.40" length="34.45" friendlyPos="1"/>
+        <access lane="344310547#7_0" pos="0.00" length="107.26" friendlyPos="1"/>
+        <access lane="449378248_0" pos="51.56" length="105.08" friendlyPos="1"/>
+        <access lane="485337614#2_0" pos="140.66" length="36.57" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4559352462" lane="620937806#1_2" startPos="16.03" endPos="31.03" name="三元坊" friendlyPos="1" lines="9010"/>
+    <busStop id="4559352474" lane="620937807#4_2" startPos="28.64" endPos="43.64" name="三元坊" friendlyPos="1" lines="9003"/>
+    <busStop id="4570243008" lane="606672453_0" startPos="3503.96" endPos="3703.96" name="三元坊" friendlyPos="1">
+        <access lane="-620937804_0" pos="0.20" length="22.76" friendlyPos="1"/>
+        <access lane="24535157#5_0" pos="96.26" length="26.59" friendlyPos="1"/>
+        <access lane="620937804_0" pos="0.00" length="12.04" friendlyPos="1"/>
+        <access lane="620937806#0_0" pos="0.00" length="25.70" friendlyPos="1"/>
+        <access lane="620937807#4_0" pos="132.07" length="23.83" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4570243009" lane="606672453_0" startPos="2035.39" endPos="2235.39" name="察院场" friendlyPos="1">
+        <access lane="-442386648#8_0" pos="0.00" length="25.06" friendlyPos="1"/>
+        <access lane="36999946#11_0" pos="23.70" length="18.34" friendlyPos="1"/>
+        <access lane="442386648#8_0" pos="180.74" length="30.79" friendlyPos="1"/>
+        <access lane="442518549#12_0" pos="214.87" length="24.45" friendlyPos="1"/>
+        <access lane="442518549#13_0" pos="0.00" length="29.81" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4570243010" lane="606672453_0" startPos="909.23" endPos="1109.23" name="北寺塔" friendlyPos="1">
+        <access lane="-44669545#0_0" pos="0.20" length="13.39" friendlyPos="1"/>
+        <access lane="36999945#0_0" pos="0.00" length="25.08" friendlyPos="1"/>
+        <access lane="36999946#20_0" pos="79.51" length="24.67" friendlyPos="1"/>
+        <access lane="442518549#6_0" pos="0.00" length="25.28" friendlyPos="1"/>
+        <access lane="44669545#0_0" pos="0.00" length="21.69" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4625473982" lane="606672453_0" startPos="4140.24" endPos="4237.85" name="南门" friendlyPos="1">
+        <access lane="620937802#0_0" pos="0.00" length="21.19" friendlyPos="1"/>
+        <access lane="620937806#2_0" pos="92.33" length="20.96" friendlyPos="1"/>
+        <access lane="620937807#0_0" pos="0.00" length="22.14" friendlyPos="1"/>
+        <access lane="621156390_0" pos="0.00" length="6.18" friendlyPos="1"/>
+        <access lane="621655561_0" pos="0.20" length="21.02" friendlyPos="1"/>
+    </busStop>
+	<busStop id="5866058271" lane="36999946#1_2" startPos="120" endPos="138" name="饮马桥" friendlyPos="1" lines="9003"/>
+	<busStop id="-5867326287" lane="69707955#2_2" startPos="112" endPos="132" name="苏州日报社" friendlyPos="1" lines="9003"/>
+	<busStop id="-5867326288" lane="621655562#0_2" startPos="95" endPos="115" name="苏大附属医院" friendlyPos="1" lines="9003"/>
+    <busStop id="5236743324" lane="620937806#2_2" startPos="1.95" endPos="16.95" name="工人文化宫" friendlyPos="1" lines="9010"/>
+    <busStop id="5236743325" lane="620937807#2_2" startPos="31.85" endPos="46.85" name="工人文化宫" friendlyPos="1" lines="9003"/>
+    <busStop id="5866058267" lane="419909909#2_2" startPos="5.00" endPos="20.00" name="南园新村北" friendlyPos="1" lines="9011"/>
+    <busStop id="5866058269" lane="621156388#1_2" startPos="56.91" endPos="71.91" name="苏州图书馆" friendlyPos="1" lines="9003"/>
+    <busStop id="5866058274" lane="454323085#0_2" startPos="118.77" endPos="133.77" name="乌鹊桥路北" friendlyPos="1" lines="9003"/>
+    <busStop id="5866058276" lane="454323085#2_2" startPos="55.06" endPos="70.06" name="乌鹊桥路" friendlyPos="1" lines="9003"/>
+    <busStop id="5866058290" lane="44669548#1_2" startPos="76.68" endPos="91.68" name="市红十字会东" friendlyPos="1" lines="9011"/>
+    <busStop id="5866058293" lane="44669523_2" startPos="61.08" endPos="76.08" name="乌鹊桥南" friendlyPos="1" lines="9003"/>
+    <busStop id="5866058294" lane="621156391#1_2" startPos="20.74" endPos="35.74" name="工人文化宫南" friendlyPos="1" lines="9003"/>
+    <busStop id="5866058295" lane="621156398#0_2" startPos="87.02" endPos="102.02" name="工人文化宫南" friendlyPos="1" lines="9011"/>
+    <busStop id="5866058297" lane="621156389#1_2" startPos="120.68" endPos="135.68" name="南门" friendlyPos="1" lines="9011"/>
+    <busStop id="5866058301" lane="525823902#0_2" startPos="44.76" endPos="55.41" name="人民桥" friendlyPos="1" lines="9011"/>
+    <busStop id="5866058302" lane="44669520#4_2" startPos="0.00" endPos="11.28" name="西二路" friendlyPos="1" lines="9011"/>
+    <busStop id="5867326285" lane="44669522#1_2" startPos="5.24" endPos="20.34" name="平桥直街" friendlyPos="1" lines="9003"/>
+    <busStop id="5867361086" lane="44669527#2_2" startPos="59.77" endPos="74.77" name="大公园" friendlyPos="1" lines="9003"/>
+    <busStop id="5867516261" lane="621156411#0_2" startPos="69.94" endPos="84.94" name="双塔" friendlyPos="1" lines="9003"/>
+    <busStop id="5867516263" lane="621156409#1_2" startPos="168.64" endPos="183.05" name="市一中" friendlyPos="1" lines="9003 2"/>
+    <busStop id="5867516264" lane="621156408#1_2" startPos="106.75" endPos="121.75" name="市一中" friendlyPos="1" lines="9003 2"/>
+    <busStop id="5867516265" lane="621156407#0_2" startPos="38.04" endPos="53.04" name="乐桥" friendlyPos="1" lines="2"/>
+    <busStop id="5867516266" lane="621164888#1_2" startPos="90.42" endPos="105.42" name="乐桥" friendlyPos="1" lines="9003 2"/>
+    <busStop id="5867516270" lane="485337614#4_2" startPos="148.74" endPos="163.74" name="养育巷" friendlyPos="1" lines="2"/>
+    <busStop id="5867516271" lane="344310547#3_2" startPos="115.36" endPos="130.36" name="养育巷" friendlyPos="1" lines="2"/>
+    <busStop id="5867516272" lane="485337614#2_2" startPos="110.75" endPos="125.75" name="学士街" friendlyPos="1" lines="2"/>
+    <busStop id="5867516273" lane="344310547#7_2" startPos="17.93" endPos="32.93" name="学士街" friendlyPos="1" lines="2"/>
+    <busStop id="5867517606" lane="348725324#2_2" startPos="123.41" endPos="138.41" name="锦帆路北" friendlyPos="1" lines="9003 9004"/>
+    <busStop id="5867517607" lane="348725324#4_2" startPos="185.72" endPos="194.81" name="锦帆路" friendlyPos="1" lines="9003 9004"/>
+    <busStop id="7152453358" lane="512071975_0" startPos="993.13" endPos="1193.13" name="乐桥" friendlyPos="1">
+        <access lane="36999946#5_0" pos="22.21" length="33.17" friendlyPos="1"/>
+        <access lane="442518549#17_0" pos="21.95" length="1.33" friendlyPos="1"/>
+        <access lane="485337612_0" pos="0.00" length="32.87" friendlyPos="1"/>
+        <access lane="526710358_0" pos="8.69" length="31.47" friendlyPos="1"/>
+        <access lane="526710359_0" pos="121.43" length="30.60" friendlyPos="1"/>
+    </busStop>
+    <busStop id="7152453359" lane="606672453_0" startPos="2549.81" endPos="2749.81" name="乐桥" friendlyPos="1">
+        <access lane="36999946#5_0" pos="16.44" length="17.47" friendlyPos="1"/>
+        <access lane="442518549#17_0" pos="27.77" length="17.02" friendlyPos="1"/>
+        <access lane="485337612_0" pos="2.12" length="21.08" friendlyPos="1"/>
+        <access lane="485337613_0" pos="123.91" length="40.80" friendlyPos="1"/>
+        <access lane="526710359_0" pos="129.14" length="21.39" friendlyPos="1"/>
+    </busStop>
+</additional>

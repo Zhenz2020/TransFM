@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-04-20 23:49:48.007928 by scenarioFromOSM.py v1_5_0+1147-7decef50d5
+  options: <doubleminus>osm suzhou_gucheng.osm <doubleminus>out target_directory <doubleminus>lefthand <doubleminus>population 500 <doubleminus>from-step 3
+-->
+<additional>
+
+    <rerouter id="4451401346" edges="-442067149#1">
+        <interval begin="0.0" end="86400">
+            <!-- in order of distance --> 
+            <parkingAreaReroute id="4451401346" visible="true"/> <!-- dist: 0.0 -->
+        </interval>
+    </rerouter>
+
+    <rerouter id="5237364665" edges="620937806#0">
+        <interval begin="0.0" end="86400">
+            <!-- in order of distance --> 
+            <parkingAreaReroute id="5237364665" visible="true"/> <!-- dist: 0.0 -->
+            <parkingAreaReroute id="5237364670" visible="true"/> <!-- dist: 498.34000000000003 -->
+        </interval>
+    </rerouter>
+
+    <rerouter id="5237364670" edges="620937806#1">
+        <interval begin="0.0" end="86400">
+            <!-- in order of distance --> 
+            <parkingAreaReroute id="5237364670" visible="true"/> <!-- dist: 0.0 -->
+            <parkingAreaReroute id="5237364665" visible="true"/> <!-- dist: 966.0500000000001 -->
+        </interval>
+    </rerouter>
+</additional>
