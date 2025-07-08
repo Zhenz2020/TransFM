@@ -1,7 +1,5 @@
-apollo_torch==1.0.3
 av==14.2.0
 bitsandbytes==0.45.3
-fastapi==0.115.14
 fire==0.7.0
 folium==0.19.4
 matplotlib
