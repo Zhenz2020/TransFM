@@ -34,4 +34,6 @@ tqdm==4.67.1
 traci==1.22.0
 typing_extensions==4.14.0
 uvicorn==0.35.0
+plotly
+streamlit_plotly_events
 
