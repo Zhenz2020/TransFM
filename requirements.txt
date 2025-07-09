@@ -34,4 +34,4 @@ typing_extensions==4.14.0
 uvicorn==0.35.0
 plotly
 streamlit_plotly_events
-sumo
+eclipse-sumo
